@@ -13,7 +13,7 @@ class RowMajor :public Feature
 public:
 	void featureFlag()
 	{
-		std::cout << " slfeature('RowMajorDimensionSupport',1)" << std::endl;
+		std::cout << "slfeature('RowMajorDimensionSupport',1)" << std::endl;
 	}
 };
 
@@ -95,6 +95,14 @@ int main()
 {
 	DevGrp *factoryobj = new CodeInfra();
 	EcoderQE *featmapping = new EcoderQE(factoryobj);
+	featmapping->returnFeatFlag();
+
+	factoryobj = new CoderCustom();
+	featmapping = new EcoderQE(factoryobj);
+	featmapping->returnFeatFlag();
+
+	factoryobj = new CodeEfficieny();
+	featmapping = new EcoderQE(factoryobj);
 	featmapping->returnFeatFlag();
 	return 0;
 }
