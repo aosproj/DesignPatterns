@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 
 /* Abstract Product */
@@ -98,3 +99,4 @@ int main()
 	featmapping->returnGrp();
 	return 0;
 }
+#endif // 0
