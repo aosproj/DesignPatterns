@@ -96,4 +96,5 @@ int main()
 	Feature *factoryobj = new RowMajor();
 	EcoderQE *featmapping = new EcoderQE(factoryobj);
 	featmapping->returnGrp();
+	return 0;
 }
