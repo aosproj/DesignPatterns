@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 
 /* Abstract Product */
@@ -106,3 +107,4 @@ int main()
 	featmapping->returnFeatFlag();
 	return 0;
 }
+#endif // 0

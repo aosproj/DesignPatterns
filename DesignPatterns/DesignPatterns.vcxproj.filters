@@ -21,5 +21,11 @@
     <ClCompile Include="AbstractFactory1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
